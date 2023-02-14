@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNotify_OpenAPI", "LineNotify_OpenAPI\LineNotify_OpenAPI.csproj", "{DC9A14ED-A98A-41FF-A5FF-844A4C7F7036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{FB24B8BF-B5B5-44EE-A035-54DDB8FCF875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNotify", "Submodules\LineNotify\LineNotify.csproj", "{FDE47AB8-948B-4CF1-A913-CBDE6F48A443}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LineNotify.Interface", "Submodules\LineNotify.Interface\LineNotify.Interface.shproj", "{17FBD76D-A188-46A0-800E-255EBA2B59E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAPI", "Submodules\OpenAPI\OpenAPI.csproj", "{C3E12080-4C6F-43BE-B4AA-10426A17E229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9A14ED-A98A-41FF-A5FF-844A4C7F7036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9A14ED-A98A-41FF-A5FF-844A4C7F7036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9A14ED-A98A-41FF-A5FF-844A4C7F7036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9A14ED-A98A-41FF-A5FF-844A4C7F7036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE47AB8-948B-4CF1-A913-CBDE6F48A443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE47AB8-948B-4CF1-A913-CBDE6F48A443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE47AB8-948B-4CF1-A913-CBDE6F48A443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE47AB8-948B-4CF1-A913-CBDE6F48A443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E12080-4C6F-43BE-B4AA-10426A17E229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E12080-4C6F-43BE-B4AA-10426A17E229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E12080-4C6F-43BE-B4AA-10426A17E229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E12080-4C6F-43BE-B4AA-10426A17E229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDE47AB8-948B-4CF1-A913-CBDE6F48A443} = {FB24B8BF-B5B5-44EE-A035-54DDB8FCF875}
+		{17FBD76D-A188-46A0-800E-255EBA2B59E3} = {FB24B8BF-B5B5-44EE-A035-54DDB8FCF875}
+		{C3E12080-4C6F-43BE-B4AA-10426A17E229} = {FB24B8BF-B5B5-44EE-A035-54DDB8FCF875}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDD9889E-BADE-4FAF-9138-8DE506E342EC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Submodules\LineNotify.Interface\LineNotify.Interface.projitems*{17fbd76d-a188-46a0-800e-255eba2b59e3}*SharedItemsImports = 13
+		Submodules\LineNotify.Interface\LineNotify.Interface.projitems*{fde47ab8-948b-4cf1-a913-cbde6f48a443}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
